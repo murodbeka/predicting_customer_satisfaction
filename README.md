@@ -60,3 +60,47 @@ Customer satisfaction is a key performance indicator in competitive markets. Usi
 
 ### 6. Interpretation
 **Final Prediction Equation:**
+
+
+***X19 = -3.3626 + 0.2800X6 - 0.2352X7 + 0.3559X11 + 0.4496X12 + 0.2314X17 + 0.2446X20 + 0.2384*X21***
+
+
+- **Positive impact**: Product Quality, Salesforce Image, Product Line, Price Flexibility, Likelihood to Recommend/Purchase
+- **Negative impact**: E-Commerce (X7) — possibly due to lack of personal touch or technical issues
+
+### 7. Recommendations
+
+1. **Invest in Salesforce Image (X12)**  
+   → Highest coefficient (0.45). Train sales teams, improve professionalism, and enhance client interactions.
+
+2. **Improve Product Quality (X6)**  
+   → Strong positive effect (0.28). Focus on consistency, durability, and innovation.
+
+3. **Enhance Price Flexibility (X17)**  
+   → Customers value negotiation and tailored pricing. Empower sales reps with discount authority.
+
+4. **Leverage Advocacy (X20, X21)**  
+   → Highly correlated with satisfaction. Encourage referrals and repeat purchases via loyalty programs.
+
+5. **Re-evaluate E-Commerce (X7)**  
+   → Negative coefficient. Audit the platform for usability, support, or integration issues.
+
+6. **Monitor Delivery Speed (X18)**  
+   → Dropped in final model but highly correlated. May need context-specific analysis.
+
+---
+
+## 📊 Visualizations Included
+- Correlation heatmap
+- Residuals vs. fitted values
+- Q-Q plot for normality
+- Histogram of residuals and satisfaction
+- Pair plots of key variables
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/hbat-satisfaction-analysis.git
