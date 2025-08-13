@@ -23,7 +23,6 @@ Customer satisfaction is a key performance indicator in competitive markets. Usi
 ## 📂 Files
 
 - `HBAT_analysis.ipynb` – Jupyter notebook with full analysis.
-- `HBAT-200-Data.csv` – Dataset (not included; available upon request or via standard sources).
 - `README.md` – This file.
 
 ---
